@@ -1,0 +1,25 @@
+﻿
+<br /><br /><br />
+
+<h2>Todo List</h2>
+<h3>Maintain your tasks</h3>
+
+<form method="POST" action="/todo/add">
+    <input type="text" id="newTask" name="newTask" />
+    <input type="submit" value="Add Task" />
+</form>
+
+<ul>
+@{
+    List<testmysql.Models.Task> todoList = ViewBag.TaskList;
+
+    foreach (testmysql.Models.Task t in todoList)
+    {
+        <li>
+            <a href="/todo/delete/@t.id">X</a> 
+            @t.description
+        </li>
+    }
+    
+}
+</ul>

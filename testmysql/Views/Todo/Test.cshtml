@@ -1,0 +1,9 @@
+﻿@{
+    List<testmysql.Models.Task> todoList = (List<testmysql.Models.Task>)ViewData["TaskList"];
+
+    foreach (testmysql.Models.Task t in todoList)
+    {
+        <p>@t.description </p>
+    }
+}
+
