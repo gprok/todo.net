@@ -1,32 +1,40 @@
 ﻿<Properties StartupConfiguration="{BA9D7A46-4291-453C-9BC2-BD7D71B14C66}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+  <MonoDevelop.Ide.Workbench ActiveDocument="testmysql/Views/_ViewStart.cshtml">
     <Files>
-      <File FileName="testmysql/Controllers/HomeController.cs" Line="17" Column="32" />
-      <File FileName="testmysql/Models/TodoDB.cs" />
-      <File FileName="testmysql/Models/Task.cs" />
+      <File FileName="testmysql/Controllers/HomeController.cs" Line="52" Column="34" />
+      <File FileName="testmysql/Models/TodoDB.cs" Line="6" Column="24" />
+      <File FileName="testmysql/Models/Task.cs" Line="1" Column="1" />
       <File FileName="testmysql/Startup.cs" />
       <File FileName="testmysql/Program.cs" />
       <File FileName="testmysql/Views/Home/Index.cshtml" />
-      <File FileName="testmysql/Controllers/TodoController.cs" />
-      <File FileName="testmysql/Views/Todo/Index.cshtml" Line="19" Column="34" />
+      <File FileName="testmysql/Controllers/TodoController.cs" Line="125" Column="27" />
+      <File FileName="testmysql/Views/Todo/Index.cshtml" Line="7" Column="34" />
       <File FileName="testmysql/Views/Home/About.cshtml" />
       <File FileName="testmysql/Views/Todo/Test.cshtml" />
       <File FileName="testmysql/Views/Shared/_Layout.cshtml" />
       <File FileName="testmysql/Views/Todo/Empty.cshtml" />
       <File FileName="testmysql/Models/ErrorViewModel.cs" />
-      <File FileName="README.md" Line="1" Column="1" />
+      <File FileName="README.md" />
+      <File FileName="testmysql/appsettings.json" />
+      <File FileName="testmysql/Views/Todo/ImageForm.cshtml" Line="7" Column="6" />
+      <File FileName="testmysql/Views/Todo/DisplayImages.cshtml" Line="12" Column="49" />
+      <File FileName="testmysql/Views/Demo.cshtml" Line="8" Column="23" />
+      <File FileName="testmysql/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="testmysql/Views/_ViewStart.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="testmysql" expanded="True" selected="True">
+          <Node name="testmysql" expanded="True">
             <Node name="Solution Items" expanded="True" />
             <Node name="testmysql" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
                 <Node name="Todo" expanded="True" />
+                <Node name="_ViewStart.cshtml" selected="True" />
               </Node>
             </Node>
           </Node>

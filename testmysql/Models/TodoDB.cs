@@ -10,6 +10,7 @@ namespace testmysql.Models
 
         public DbSet<Task> taskEntity { get; set; }
 
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         { 
             optionsBuilder.UseMySQL("server=localhost;database=todo;user=test;password=test");

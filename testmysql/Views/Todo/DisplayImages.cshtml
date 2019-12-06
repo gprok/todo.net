@@ -1,0 +1,13 @@
+﻿@page
+@{
+}
+
+
+
+@foreach (var image in (IEnumerable<string>)ViewBag.Images)
+{
+    //Your logic here eg:
+
+    var imgPath = "/images/uploads/" + image;
+    <img class="img" src="@imgPath" width="300px"/>
+}

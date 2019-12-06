@@ -35,3 +35,6 @@
 /Users/gprok/Projects/testmysql/testmysql/obj/Debug/netcoreapp2.1/Razor/Views/Todo/Index.cshtml.g.cs
 /Users/gprok/Projects/testmysql/testmysql/obj/Debug/netcoreapp2.1/Razor/Views/Todo/Test.cshtml.g.cs
 /Users/gprok/Projects/testmysql/testmysql/obj/Debug/netcoreapp2.1/Razor/Views/Todo/Empty.cshtml.g.cs
+/Users/gprok/Projects/testmysql/testmysql/obj/Debug/netcoreapp2.1/Razor/Views/Todo/ImageForm.cshtml.g.cs
+/Users/gprok/Projects/testmysql/testmysql/obj/Debug/netcoreapp2.1/Razor/Views/Todo/DisplayImages.cshtml.g.cs
+/Users/gprok/Projects/testmysql/testmysql/obj/Debug/netcoreapp2.1/Razor/Views/Home/Demo.cshtml.g.cs
