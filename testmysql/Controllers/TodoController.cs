@@ -16,6 +16,12 @@ namespace testmysql.Controllers
         // GET: /todo/
         public IActionResult Index()
         {
+            var email = HttpContext.Session.GetString("email");
+            if(email == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             TodoDB db = new TodoDB();
 
             var list = db.taskEntity.ToList();

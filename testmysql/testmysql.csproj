@@ -17,5 +17,6 @@
 
   <ItemGroup>
     <Folder Include="Views\Todo\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
 </Project>

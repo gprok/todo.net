@@ -1,0 +1,16 @@
+﻿<h2>Accounts</h2>
+
+
+<ul>
+@{
+    List<testmysql.Models.Account> accList = ViewBag.AccountList;
+
+    foreach (testmysql.Models.Account a in accList)
+    {
+        <li>
+            @a.email
+        </li>
+    }
+    
+}
+</ul>

@@ -9,6 +9,7 @@ namespace testmysql.Models
         public TodoDB(DbContextOptions options) : base(options) { }
 
         public DbSet<Task> taskEntity { get; set; }
+        public DbSet<Account> accountEntity { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
